@@ -131,6 +131,8 @@ GameObject:
   - component: {fileID: 40674624}
   - component: {fileID: 40674623}
   - component: {fileID: 40674622}
+  - component: {fileID: 40674627}
+  - component: {fileID: 40674626}
   m_Layer: 0
   m_Name: jugador
   m_TagString: Untagged
@@ -227,12 +229,38 @@ Transform:
   m_GameObject: {fileID: 40674621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.25, y: 1.17, z: 5.49}
+  m_LocalPosition: {x: -1.55, y: 1, z: 5.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &40674626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40674621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8afaf3694e8db4ebcf9b9be029c65a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovimientoJugador
+  velocidad: 9
+--- !u!114 &40674627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40674621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba8afaf3694e8db4ebcf9b9be029c65a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  velocidad: 9
 --- !u!1 &151527577
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +479,7 @@ Transform:
   m_GameObject: {fileID: 230593560}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.39, y: 0.5, z: -1.32}
+  m_LocalPosition: {x: -1.35, y: 0.5, z: -6.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -989,7 +1017,7 @@ Transform:
   m_GameObject: {fileID: 2101758591}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.76, y: 0.5, z: -1.69726}
+  m_LocalPosition: {x: -8.7, y: 0.5, z: -1.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
